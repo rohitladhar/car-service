@@ -1,0 +1,366 @@
+/*******************************Header Css ****************************/
+
+.header {
+  height: 60px;
+  display: flex;
+  background: linear-gradient(to right, #a3eaf7, #f7b8d7);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  height: auto;
+  width: auto;
+  float: left;
+  max-height: 72px;
+  max-width: 144px;
+  object-fit: contain;
+}
+
+.header__ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.header__li {
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.header__li__link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header__li__button {
+  color: white;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+/*******************************Home Css ****************************/
+
+.home__container {
+  max-width: 1080px;
+  margin-top: 60px;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home__header {
+  text-align: center;
+}
+
+.home__booking {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.home__booking__single {
+  width: 300px;
+  flex-grow: 1 1 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: #d8eff3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.home__button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f7b8d7;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.booking__error {
+  color: red;
+}
+
+/*******************************SignIn Css ****************************/
+
+.signin__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 80vh;
+}
+
+.signin__header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.signinform__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 50vh;
+  padding-top: 30px;
+}
+
+.signin__input {
+  width: 90%;
+  font-size: 1.2rem;
+  height: 40px;
+  margin: 15px;
+  outline: none;
+}
+
+.signin__container label {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+.signin__button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f7b8d7;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+.register__link {
+  text-decoration: none;
+  margin-left: 15px;
+  color: dodgerblue;
+}
+
+.registerform__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 65vh;
+  padding-top: 30px;
+}
+
+.registerform__container input {
+  width: 90%;
+  font-size: 1.2rem;
+  height: 40px;
+  margin: 15px;
+  outline: none;
+}
+.registerform__container label {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+.errors {
+  color: red;
+  text-align: center;
+}
+
+.errors span {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.input__error {
+  border: 1px solid red;
+}
+
+/*******************************bookserviceCss ****************************/
+.bookservice__container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 80vh;
+}
+
+.bookservice__header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.bookserviceform__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 70vh;
+  padding-top: 30px;
+}
+
+.statusviewform__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 35vh;
+  padding-top: 30px;
+}
+
+.addbookingform__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 50vh;
+  padding-top: 30px;
+}
+
+.bookservice__input {
+  width: 90%;
+  font-size: 1.2rem;
+  height: 40px;
+  margin: 15px;
+  outline: none;
+}
+
+.bookservice__select {
+  width: 92%;
+  font-size: 1.2rem;
+  height: 45px;
+  margin: 15px;
+  outline: none;
+}
+
+.bookservice__container label {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+.bookservice__button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f7b8d7;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 150px;
+}
+
+.saved {
+  color: green;
+  text-align: center;
+}
+
+/*******************************get status Css ****************************/
+
+.getstatus__container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.getstatus__container__left {
+  width: 400px;
+}
+
+.getstatus__container__right {
+  background-color: #e5f1f3;
+  width: 800px;
+  float: right;
+  height: 100vh;
+}
+
+.getstatus__container__header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.getstatus__container__left input {
+  width: 90%;
+  font-size: 1.2rem;
+  height: 40px;
+  margin: 15px;
+  outline: none;
+}
+
+.getstatus__container__left label {
+  font-size: 1.2rem;
+  margin-left: 15px;
+}
+
+.getstatus__container__left__container {
+  border: 1px solid #ccc;
+  background-color: #d8eff3;
+  height: 30vh;
+  padding-top: 30px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.getstatus__container__left button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f7b8d7;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  margin-left: 130px;
+}
+
+.getstatus__error {
+  color: red;
+  margin-top: 100px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.table__container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+.table__container td,
+th {
+  border: 1px solid #fff;
+  width: 600px;
+  padding: 15px;
+  text-align: center;
+}
+
+.table__container tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.table__container tr:hover {
+  background-color: #f1d2e2;
+  cursor: pointer;
+}
+
+.table__container th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f7b8d7;
+  color: white;
+}
+
+.yes {
+  background-color: #7cfc00;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  color: white;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.no {
+  background-color: #ff0000;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  color: white;
+  outline: none;
+  padding: 5px 10px;
+}
