@@ -5,7 +5,7 @@ const { validationResult } = require('express-validator');
 
 const JWT_SECRET = "2a$12$7JdHp7xUPmL1vCbx8XLKAMnnftZOQwBwvq6Xu9Nq"
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey('sgmail_key');
 const tokenGenerate = (name, email, isAdmin) => {
     return jwt.sign({ name, email, isAdmin }, JWT_SECRET, { expiresIn: '1h' })
 }
